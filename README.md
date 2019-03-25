@@ -36,8 +36,6 @@ policy: 800-171
   - This profile configures Red Hat Enterprise Linux 7 to the NIST Special Publication 800-53 controls identified for securing Controlled Unclassified Information (CUI).
 - #### hipaa
   - This profile configures Red Hat Enterprise Linux 7 to the HIPAA Security Rule identified for securing of electronic protected health information.
-- #### default
-  - This script is generated from an OpenSCAP profile without preliminary evaluation. It attempts to fix every selected rule, even if the system is already compliant.
 - #### cjis
   - This profile is derived from FBI's CJIS v5.4 Security Policy. A copy of this policy can be found at the CJIS Security
 - #### c2s
