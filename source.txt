@@ -1,1 +1,2 @@
-https://github.com/ComplianceAsCode/content
+
+oscap xccdf generate fix --template urn:xccdf:fix:script:ansible --profile xccdf_org.ssgproject.content_profile_C2S --output ./playbook.yml /usr/share/xml/scap/ssg/content/ssg-rhel7-ds.xml
