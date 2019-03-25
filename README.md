@@ -32,7 +32,7 @@ policy: 800-171
       - U.S. Government Configuration Baseline (USGCB)
       - NIAP Protection Profile for General Purpose Operating Systems v4.0 (OSPP v4.0)
       - DISA Operating System Security Requirements Guide (OS SRG)
-  - #### 800-171
+  - #### nist-800-171
   - This profile configures Red Hat Enterprise Linux 7 to the NIST Special Publication 800-53 controls identified for securing Controlled Unclassified Information (CUI).
 - #### hipaa
   - This profile configures Red Hat Enterprise Linux 7 to the HIPAA Security Rule identified for securing of electronic protected health information.
@@ -44,4 +44,3 @@ policy: 800-171
   - This profile demonstrates compliance against the
    U.S. Government Commercial Cloud Services (C2S) baseline.
    This baseline was inspired by the Center for Internet Security (CIS) Red Hat Enterprise Linux 7 Benchmark, v2.1.1 - 01-31-2017.
-   
