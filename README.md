@@ -46,7 +46,7 @@ policy: 800-171
 
 
    #### Sample playbook
-   ```
+```
 ---
 - hosts: localhost
   tasks:
@@ -54,4 +54,4 @@ policy: 800-171
       name: ansible-role-rhel-hardening
     ignore_errors: yes
 
-  ```
+```
