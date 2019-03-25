@@ -1,0 +1,33 @@
+---
+- include_tasks: ssg-centos7-role-stig-rhel7-disa.yml
+  when: policy == 'role-stig-rhel7-disa'
+
+- include_tasks: ssg-centos7-role-standard.yml
+  when: policy == 'standard'
+
+- include_tasks: ssg-centos7-role-rht-ccp.yml
+  when: policy == 'rht-ccp'
+
+- include_tasks: ssg-centos7-role-pci-dss.yml
+  when: policy == 'pci-dss'
+
+- include_tasks: ssg-centos7-role-ospp42.yml
+  when: policy == 'ospp42'
+
+- include_tasks: ssg-centos7-role-ospp.yml
+  when: policy == 'ospp'
+
+- include_tasks: ssg-centos7-role-nist-800-171-cui.yml
+  when: policy == '800-171'
+
+- include_tasks: ssg-centos7-role-hipaa.yml
+  when: policy == 'hipaa'
+
+- include_tasks: ssg-centos7-role-default.yml
+  when: policy == 'default'
+
+- include_tasks: ssg-centos7-role-cjis.yml
+  when: policy == 'cjis'
+
+- include_tasks: ssg-centos7-role-C2S.yml
+  when: policy == 'c2s'
